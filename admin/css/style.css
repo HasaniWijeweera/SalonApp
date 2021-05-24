@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
@@ -38,6 +33,8 @@ body a:hover{
 }
 .main-content {
     position: relative;
+    background-color: tomato;
+   
 }
 /*-------HEADER SECTION------*/
 /* ----STICKY HEADER----*/
@@ -895,7 +892,7 @@ h4.title {
 }
 /*--//charts--*/
 .widget-shadow {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-webkit-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-moz-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
@@ -1058,8 +1055,9 @@ h4.title {
 /*---//main-content---*/
 /*-- media --*/
 h3.title1 {
-    font-size: 2em;
-    color: #e94e02;
+    font-size: 3em;
+    font-weight: 1000;
+    color: #df1d8e;
     margin-bottom: 0.8em;
 }
 .bs-example5{
@@ -1524,8 +1522,9 @@ button.note-color-btn {
 /*--//blank-page--*/
 /*--login-page--*/
 .login-page {
-    width: 40%;
+    width: 30%;
     margin: 1em auto 0;
+    
 }
 .login-page h3.title1 {
     text-align: center;
@@ -1597,21 +1596,21 @@ button.note-color-btn {
     display:block;
 }
 .forgot a:hover{
-    color: #e94e02;
+    color: #f555b7;
 }
 .login-page input[type="submit"] {
     border: none;
     outline: none;
     cursor: pointer;
     color: #fff;
-    background: #6164C1;
+    background: #e9b6c9;
     width: 100%;
     padding: .5em 1em;
     font-size: 1em;
     margin: 0.5em 0 0;
 }
 .login-page input[type="submit"]:hover{
-    background: #4F52BA;
+    background: #eb5bbf;
 }
 .login-page-bottom {
     text-align: center;
@@ -3533,7 +3532,7 @@ span.nav-badge {
     margin-bottom: 0.6em;
 }
 h3.title1 {
-    font-size: 1.4em;
+    font-size: 3em;
 }
 }
 @media(max-width:320px){
@@ -3702,7 +3701,7 @@ div#vmap {
     padding: 0.5em 1em 1em;
 }
 h3.title1 {
-    font-size: 1.3em;
+    font-size: 3em;
 }
 .grids {
     padding: 1em 0em;
